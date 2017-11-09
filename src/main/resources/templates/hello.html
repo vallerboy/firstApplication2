@@ -5,6 +5,7 @@
     <title>Title</title>
 </head>
 <body>
-<center> <b> <h1 th:text="${age}">  </h1></b></center>
+<center> <b> <h1  th:text="${age} >= 18 ? 'do klubu go' : 'do domu go'"></h1></b></center>
+
 </body>
 </html>
